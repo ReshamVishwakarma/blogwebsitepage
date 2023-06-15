@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Blog Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jobs">Jobs</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Welcome to our Blog Website</h1>
+          <p>Discover the latest blogs, news, and job updates</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- News Section -->
+  <section id="news" class="news">
+    <div class="container">
+      <h2 class="section-title">News Feeds</h2>
+      <div class="col-lg-12">
+        <div class="col-lg-12" id="line">
+          <h3 id="space">Latest News</h3>
+          <div class="carousel-container">
+            <div id="card-carousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#card-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#card-carousel" data-slide-to="1"></li>
+                <li data-target="#card-carousel" data-slide-to="2"></li>
+                <li data-target="#card-carousel" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-8 ">
+                      <div class="card">
+                        <img src="assest/slide1.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8 ">
+                      <div class="card">
+                        <img src="assest/slide2.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide3.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide4.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <!-- Add the next set of four cards here -->
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide5.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide6.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide7.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8">
+                      <div class="card">
+                        <img src="assest/slide8.jpg" class="card-img-top" alt="..." height="220px">
+                        <div class="card-body">
+                          <h5 class="card-text">News Title</h5>
+                          <p class="card-text">News content and details</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="carousel-control-prev" href="#card-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#card-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+ 
+  <!-- update on events -->
+  <section id="events" class="upcoming-events">
+    <div class="background-image"></div>
+    <div class="overlay">
+      <div class="container">
+        <h2 class="section-title">Update on Upcoming Events</h2>
+        <div class="event-subsegments">
+          <div class="event-subsegment">
+            <h3>Conference</h3>
+            <div class="conference-cards">
+              <div class="conference-card">
+                <img src="./assest/con1.jpg" alt="Conference Image 1">
+                <div class="card-details">
+                  <h4>Conference Title 1</h4>
+                  <p>Date: June 20, 2023</p>
+                  <p>Location: City Convention Center</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/con2.jpg" alt="Conference Image 2">
+                <div class="card-details">
+                  <h4>Conference Title 2</h4>
+                  <p>Date: June 25, 2023</p>
+                  <p>Location: ABC Auditorium</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/con3.jpg" alt="Conference Image 3">
+                <div class="card-details">
+                  <h4>Conference Title 3</h4>
+                  <p>Date: July 1, 2023</p>
+                  <p>Location: XYZ Training Center</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="event-subsegment">
+            <h3>Seminar</h3>
+            <div class="conference-cards">
+              <div class="conference-card">
+                <img src="./assest/sem3.jpg" alt="Conference Image 1">
+                <div class="card-details">
+                  <h4>Seminar Title 1</h4>
+                  <p>Date: June 20, 2023</p>
+                  <p>Location: Conference Hall</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/sem1.jpg" alt="Conference Image 2">
+                <div class="card-details">
+                  <h4>Seminar Title 2</h4>
+                  <p>Date: June 25, 2023</p>
+                  <p>Location: XYZ Training Center</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/sem2.jpg" alt="Conference Image 3">
+                <div class="card-details">
+                  <h4>Seminar Title 1</h4>
+                  <p>Date: June 27, 2023</p>
+                  <p>Location: ABC Auditorium</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="event-subsegment">
+            <h3>Workshop</h3>
+            <div class="conference-cards">
+              <div class="conference-card">
+                <img src="./assest/wk1.jpg" alt="Conference Image 1">
+                <div class="card-details">
+                  <h4>Workshop Title 1</h4>
+                  <p>Date: June 20, 2023</p>
+                  <p>Location: City Convention Center</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/wk2.jpg" alt="Conference Image 2">
+                <div class="card-details">
+                  <h4>Workshop Title 2</h4>
+                  <p>Date: June 25, 2023</p>
+                  <p>Location: ABC Auditorium</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/wk3.jpg" alt="Conference Image 3">
+                <div class="card-details">
+                  <h4>Workshop Title 3</h4>
+                  <p>Date: July 1, 2023</p>
+                  <p>Location: XYZ Training Center</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="event-subsegment">
+            <h3>Webinar</h3>
+            <div class="conference-cards">
+              <div class="conference-card">
+                <img src="./assest/web3.jpg" alt="Conference Image 1">
+                <div class="card-details">
+                  <h4>Webinar Title 3</h4>
+                  <p>Date: July 12, 2023</p>
+                  <p>Time: 9:30 AM - 11:00 AM</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/web2.jpg" alt="Conference Image 2">
+                <div class="card-details">
+                  <h4>Webinar Title 2</h4>
+                  <p>Date: July 5, 2023</p>
+                  <p>Time: 2:00 PM - 3:30 PM</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="conference-card">
+                <img src="./assest/web1.jpg" alt="Conference Image 3">
+                <div class="card-details">
+                  <h4>Webinar Title 1</h4>
+                  <p>Date: June 30, 2023</p>
+                  <p>Time: 10:00 AM - 11:30 AM</p>
+                  <p>Details: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Jobs Section -->
+  <section id="jobs" class="jobs">
+    <div class="container">
+      <h2 class="section-title">Jobs</h2>
+      <div class="row">
+        <!-- <div class="col-lg-6" id="line">
+          <h3>Featured Jobs</h3>
+          <div class="card-deck">
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title1</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title2</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title3</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" id="line">
+          <h3>Recent Jobs</h3>
+          <div class="card-deck">
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title4</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title5</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+            <div class="card job-card">
+              <div class="card-body">
+                <h5 class="card-title">Job Title6</h5>
+                <p class="card-text">Job description and requirement.</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- FEATURED JOBS -->
+        <div class="col-md-6">
+          <h3 class="carousel-title">Featured Jobs</h3>
+          <div id="featured-job-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#featured-job-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#featured-job-carousel" data-slide-to="1"></li>
+              <li data-target="#featured-job-carousel" data-slide-to="2"></li>
+              <!-- Add more indicators as needed -->
+            </ol>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- Featured Job Card 1 -->
+                <div class="card" id="new">
+                  <img src="./assest/card6.jpg" class="card-img-top" alt="Featured Job 1" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Featured Job 1</h5>
+                    <p class="card-text">Description of Featured Job 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- Featured Job Card 2 -->
+                <div class="card" id="new">
+                  <img src="./assest/card7.jpg" class="card-img-top" alt="Featured Job 2" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Featured Job 2</h5>
+                    <p class="card-text">Description of Featured Job 2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- Featured Job Card 3 -->
+                <div class="card" id="new">
+                  <img src="./assest/card4.jpg" class="card-img-top" alt="Featured Job 3" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Featured Job 3</h5>
+                    <p class="card-text">Description of Featured Job 3</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Add more carousel items for additional featured jobs -->
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#featured-job-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#featured-job-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- RECENT JOBS -->
+        <div class="col-md-6" id="recent">
+          <h3 class="carousel-title">Recent Jobs</h3>
+          <div id="recent-job-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#recent-job-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#recent-job-carousel" data-slide-to="1"></li>
+              <li data-target="#recent-job-carousel" data-slide-to="2"></li>
+              <!-- Add more indicators as needed -->
+            </ol>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- recent Job Card 1 -->
+                <div class="card" id="new">
+                  <img src="./assest/card1.jpg" class="card-img-top" alt="Featured Job 1" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Recent Job 1</h5>
+                    <p class="card-text">Description of Recent Job 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- recent Job Card 2 -->
+                <div class="card" id="new">
+                  <img src="./assest/card2.jpg" class="card-img-top" alt="Featured Job 2" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Recent Job 2</h5>
+                    <p class="card-text">Description of Recent Job 2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- recent Job Card 3 -->
+                <div class="card" id="new">
+                  <img src="./assest/card9.jpg" class="card-img-top" alt="Featured Job 3" height="280px" width="20px">
+                  <div class="card-body">
+                    <h5 class="card-title">Recent Job 3</h5>
+                    <p class="card-text">Description of Recent Job 3</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Add more carousel items for additional recent jobs -->
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#recent-job-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#recent-job-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum, tortor at pellentesque
+            consectetur, enim dolor sollicitudin enim, a ultricies felis elit id nunc.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</li>
+            <li><i class="fas fa-phone"></i> +1 123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@example.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
